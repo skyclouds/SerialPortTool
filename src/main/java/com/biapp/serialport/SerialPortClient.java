@@ -188,9 +188,6 @@ public class SerialPortClient {
                     }
                 }
             } while (index < len && inputStream != null);
-            if (index == len) {
-                PrintfUtil.d(devName + "-Read", Bytes.toHexString(read));
-            }
         } catch (IOException e) {
             e.printStackTrace();
             read = null;
