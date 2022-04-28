@@ -1,7 +1,7 @@
 # SerialPortTool
 串口通信工具支持Windows&amp;Mac
 ```shell
-java -jar /Users/yun/code/github/SerialPortTool/SerialPortTool.jar
+java -jar SerialPortTool.jar
 ==========串口工具==========
 1.显示设备名称
 2.退出
